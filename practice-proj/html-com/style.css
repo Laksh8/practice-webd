@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+    height:100em;
+    margin-top:20px;
+    background-color: white;
+}
+
+.nav{
+    padding: 20px;
+    
+}
+.nav-links{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    width:30%;
+    float:left;
+}
+nav{    
+    float: right;
+}
+
+.clearfix{
+    clear:both;
+}
+
+
+body{
+    background-color: #fecda5 ;
+}

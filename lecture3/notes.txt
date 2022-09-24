@@ -1,0 +1,34 @@
+Selectors in CSS:
+    1). Elements
+    2). class
+    3). Id
+
+1). Descendant Selectors
+artile p em{
+
+}
+
+2). Child Selector 
+article > p{
+
+}
+
+3). Immediate/Adjacent Sibling
+li+li{
+    
+}
+
+4). General Sibling 
+li~li{
+
+}
+
+Structural Pseudoclass
+li:nth-child(odd){
+
+}
+
+li:nth-child(an(interval)+b(offset)){
+
+}
+
