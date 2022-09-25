@@ -1,0 +1,24 @@
+*{
+    /* padding: 0;
+    margin: 0; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div .el{
+    height:50px;
+    
+    font-size: 45px;
+    font-weight: lighter;
+    background-color: orangered;
+    color: white;
+}
+
+.container{
+    border: 1px solid black;
+    display: flex;
+    height:500px;
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
