@@ -107,3 +107,156 @@ hr{
     width:200px;
     padding:5px;
 }
+
+
+.container{
+    width:80%;
+    margin: auto;
+    margin-top:50px;
+}
+
+
+.trending h5{
+    font-weight: lighter;
+}
+
+.trending-el{
+    width:33%;
+    margin-top: 30px;
+    
+}
+.card{
+    display: grid;
+    grid-template-columns: 0.3fr repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    " num head head "
+    " num desc desc "
+    ;
+}
+
+
+.trending-el .num{
+    grid-area: num;
+
+    font-weight: bolder;
+    font-size: 30px;
+    color: lightgray;
+    display: inline-block;
+}
+
+.trending-el .head{
+    grid-area: head;
+    font-weight: lighter;
+    margin-top: 7px;
+    font-size: 15px;
+    /* color: grey; */
+    display: inline-block;
+}
+
+
+.trending-el .desc{
+    grid-area: desc;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color:rgb(44, 41, 41);
+    display: inline-block;
+}
+
+
+.trending-block{
+    display: flex;
+    flex-wrap: wrap;
+
+    /* grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+    grid-template-areas: 
+    "el1 el2 el3"
+    "el4 el5 el6"; */
+}
+
+.blogs-divider{
+    border: 1px solid gray;
+}
+
+.blog-container{
+    width:80%;
+    margin:auto;
+    
+}
+
+.feeds{
+    grid-area: feeds;
+}
+
+.blogs{
+    display: grid;
+    width:100%;
+    grid-template-columns: repeat(2, 0.75fr) 1fr ;
+    grid-template-areas: 
+        "feeds feeds article"
+    ;
+}
+
+.info-name{
+    grid-area: info-name;
+    /* border: 1px solid red; */
+    font-family:italic;
+    margin: 5px;
+    /* padding:0; */
+    /* margin: 0 ; */
+}
+
+.info-desc{
+    grid-area: info-desc;
+    font-size: 16px;
+    margin: 5px;
+    color: gray;
+}
+
+
+.info-image{
+    grid-area: info-image;
+    width: 100%;
+    /* height:100%; */
+}
+
+
+.info-title{
+    grid-area: info-title;
+    font-size: 20px;
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+
+
+
+.info{
+    /* border: 1px solid black; */
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    " info-name info-name info-image "
+    " info-title info-title  info-image "
+    " info-desc info-desc info-image ";
+}
+
+.info-image img{
+    height:100%;
+    width: 75%;
+}
+
+.article{
+    grid-area: article;
+    /* position:sticky; */
+    top:80px;
+    margin-top: 50px;
+}
+
