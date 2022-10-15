@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    
+    width: 80%;
+    margin: auto;
+    margin-top: 40px ;
+}
+
+/* .container nav{
+    width:500px;
+    height:500px;
+    background-color: red;
+} */
+
+
+.date{
+    float:left;
+    font-size: 15px;
+    
+}
+
+
+.page-title{
+    width:350px;
+    height: 58px;
+    margin:6px;
+    float:right;
+    margin-right: 40%;
+}
+
+
+.clear-fix{
+    clear: both;
+}
+
+
+.date span{
+    color:gray;
+    font-style: italic;    
+}
+
+.up-header hr{
+    border: none;
+    border-top: 1px solid lightgray;
+}
+
+.nav-elements li{
+    margin:10px;
+    margin-left:15px;
+    
+    
+}
+
+/* .nav-elements li:first-child{
+    margin: 10px;
+    
+} */
+
+/* .main-header{
+    position: fixed;
+} */
+
+.nav-elements{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    /* font-size: 15px; */
+}
+
+.divider{
+    padding:2px;
+    border:1px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+
+.second{
+    
+    width:69.9%;
+    float:left;
+    /* background-color: lawngreen;
+    height:1000px; */
+}
+
+.third{
+    margin-top: 15px;
+    width:30%;
+    float:right;
+    border-left: 1px solid gray;
+    height:1000px;
+    /* background-color: blueviolet; */
+}
+
+
+.heading-1{
+    grid-area: heading-1;
+}
+
+.heading-2{
+    grid-area: heading-2;
+}
+
+.image{
+    grid-area: image;
+
+}
+.image img{
+    width:100%;
+    /* padding: 2px; */
+    border-radius: 10px;
+    
+}
+
+
+.blog-1{
+    display: grid;
+    grid-template-rows: 8em 200px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "heading-1 image"
+    "heading-2 image"
+    ;
+}   
+
+.left-block h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:3px 0px;
+}
+
+.left-block{
+    width:97%;
+    padding:1.5%;
+
+}
+
+.left-block .desc{
+    font-size: 12px;
+    padding: 5px 0px;
+    color: gray;
+}
+
+
+.left-block li{
+    list-style-type:square;
+}
+
+
+.title{
+    font-size: 22px;
+    color: gray;
+    font-weight: lighter;
+}
+
+
+.desc{
+    font-size: 15px;
+    font-weight: lighter;
+    color: gray;
+}
+
+
+.right-block{
+    width:95%;
+    margin: auto;
+}
+
+
+.right-block hr{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 9px;
+    background-color: gray;
+}
