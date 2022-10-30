@@ -1,0 +1,13 @@
+Async code works in sync manner
+
+1). Callback
+2). Promises
+3). Async await
+
+
+Arrow Functions <=> Binding
+
+Bindings :
+    1). Implicit Binding
+    2). Explicit Binding
+        .apply(), .call() , .bind()

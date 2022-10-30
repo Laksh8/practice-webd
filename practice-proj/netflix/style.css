@@ -1,8 +1,15 @@
 .nav-logo{
     color: red;
+    font-size: 40px;
+    font-weight: bolder;
 }
-
-
+.banner{
+    height:730px;
+    filter: brightness(50%);
+    background-image:url("https://assets.nflxext.com/ffe/siteui/vlv3/28b69a57-cadf-43d9-8a95-e5f2e11199de/a678bf27-dbb6-42e7-aad1-d4dbb1c31d7b/IN-en-20221010-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 /* @url("https://assets.nflxext.com/ffe/siteui/vlv3/28b69a57-cadf-43d9-8a95-e5f2e11199de/a678bf27-dbb6-42e7-aad1-d4dbb1c31d7b/IN-en-20221010-popsignuptwoweeks-perspective_alpha_website_small.jpg") */
