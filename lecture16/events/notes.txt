@@ -1,0 +1,6 @@
+Events starts with on always
+example: 
+    1). onclick
+    2). onkeyup
+    3). onkeydown 
+

@@ -1,0 +1,7 @@
+Promise: 
+    syntax-> new Promise
+    Keyword (new) is used to create a binding
+
+Lambda Functions: 
+    -> Stateless functions
+     
