@@ -1,8 +1,21 @@
 *{
-    /* margin: 0;
+    color:black
+    /* margin: 0; 
     padding: 0; */
 }
 
-.random{
-    background-color: burlywood;
+.random-class{
+    border: 2px solid black;
+    padding: 50px;
+    background-color: blueviolet;
+    color:white;
 }
+
+
+.border{
+    background-color: black !important ;
+    color:white !important;
+}
+
+
+
