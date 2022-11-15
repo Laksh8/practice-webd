@@ -1,0 +1,5 @@
+Types of AJAX Request: 
+    1). XML Http Request
+    2). Fetch
+    3). Axios
+    4). Ajax with Jquery(Mostly used)

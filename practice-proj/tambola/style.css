@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width:90%;
+    margin: auto;
+}
+
+#random-number{
+    height:100px;
+    margin: auto;
+    width: 100%;
+    
+    font-size: 70px;
+    
+    /* background-color: green; */
+}
+
+#random-number div{
+    margin-left: 43%;
+}
+
+
+
+#tambola-numbers{
+    /* margin-top: 50px; */
+    width:42%;
+    /* background-color: black; */
+}
+
+
+.flex{
+    display: flex;
+    margin-top: 20px;
+}
+
+#tambola-numbers button{
+    width:50px;
+    margin: 3px 2px;
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+}
+
+
+#already-visited-numbers{
+    /* background-color: blue; */
+    width:50%;
+    border-left: 1px solid gray;
+}
+
+#already-visited-numbers button{
+    width:50px;
+    margin: 3px 2px;
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+}
+
+

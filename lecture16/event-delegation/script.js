@@ -14,12 +14,3 @@ function fun(self){
         background-color: blueviolet;
     `;
 }
-
-
-
-
-
-
-
-
-
