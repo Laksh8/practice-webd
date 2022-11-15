@@ -23,7 +23,10 @@ function random_item(items){
 
 setInterval(()=>{
     let number = random_item(arr);
-    rand.innerHTML = `<div> ${number} </div>`;
+    if(number)
+        rand.innerHTML = `<div> ${number} </div>`;
+    else
+        rand.innerText = "GAME OVER";    
     var index = arr.indexOf(number);
     // let index = number-1;
     if (index > -1) { // only splice array when item is found
