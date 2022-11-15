@@ -24,11 +24,14 @@ function random_item(items){
 setInterval(()=>{
     let number = random_item(arr);
     rand.innerHTML = `<div> ${number} </div>`;
-    const index = number-1;
+    var index = arr.indexOf(number);
+    // let index = number-1;
     if (index > -1) { // only splice array when item is found
         arr.splice(index, 1); // 2nd parameter means remove one item only
-        console.log("Index Removed from ",index);
+
+        console.log("Index Removed from ",index,arr.find( ( num )=>{ return num == number } ));
     }
+
     button = document.getElementById(`tambola-btn-${number}`);
     button.style = `
         background-color:gray;
