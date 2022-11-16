@@ -34,6 +34,7 @@
 .flex{
     display: flex;
     margin-top: 20px;
+    justify-content: space-between;
 }
 
 #tambola-numbers button{
@@ -45,16 +46,24 @@
     border-radius: 4px;
 }
 
+.wrapper{
+    width:50%;
+    border-left: 1px solid gray;
+}
 
 #already-visited-numbers{
     /* background-color: blue; */
-    width:43%;
-    border-left: 1px solid gray;
+    width: 80%;
+    /* background-color: green; */
+    margin: auto;
+    margin-left: 90px;
+    
 }
 
 #already-visited-numbers button{
     width:50px;
     margin: 3px 2px;
+    
     background-color: blueviolet;
     color: white;
     border: 1px solid blueviolet;

@@ -2,8 +2,12 @@
 const tambola = document.getElementById("tambola-numbers");
 let rand = document.getElementById("random-number");
 let already_visited_elements_div = document.getElementById("already-visited-numbers");
+let button = document.getElementById("number-generator");
+
+
 let arr = [];
 let already_visited_elements = [];
+
 console.log(rand);
 let s = ``;
 
@@ -19,19 +23,20 @@ function random_item(items){
     return items[Math.floor(Math.random()*items.length)];
         
 }
+console.log(button)
 
-
-setInterval(()=>{
+button.addEventListener("click",()=>{
     let number = random_item(arr);
     if(number)
         rand.innerHTML = `<div> ${number} </div>`;
-    else
-        rand.innerText = "GAME OVER";    
+    else{
+        rand.innerText = "GAME OVER";
+        clearInterval(interval);   
+    }
     var index = arr.indexOf(number);
     // let index = number-1;
     if (index > -1) { // only splice array when item is found
         arr.splice(index, 1); // 2nd parameter means remove one item only
-
         console.log("Index Removed from ",index,arr.find( ( num )=>{ return num == number } ));
     }
 
@@ -46,6 +51,8 @@ setInterval(()=>{
     number_btn.id = `already-visited-number-${number}`;
     number_btn.innerText=number;
     already_visited_elements_div.appendChild(number_btn);
-},3000)
+})
+
+// let interval = setInterval(,3000)
 
 
