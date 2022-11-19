@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .facts-li{
+            font-size: 20px;
+            /* border: 1px solid brown; */
+            padding: 2px;
+            width: 50%;
+        }
+        .title{
+            float: left;
+            padding-left: 40px;
+            font-size: 30px;
+            font-weight: bolder;
+            font-style: italic;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .parent{
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid gray;
+        }
+        .clear-flex{
+            clear: both;
+        }
+        .counter{
+            font-size: 17px;
+            display: inline-block;
+            /* margin:50%; */
+            float: right;
+
+        }
+        .counter-value{
+            display: inline-block;
+            width:17px;
+        }
+        .counter button{
+            background-color: aqua;
+            color:white;
+            padding:10px;
+
+            border: 0px;
+            
+        }
+
+        .counter button {
+            background-color: aqua;
+            color:white;
+            padding:10px;
+
+            border: 0px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="title">
+
+            Cat facts
+        </div>
+        <div class="counter">
+            <button id="dec"> < </button>
+            <span class="counter-value"> 0</span>
+            <button id="inc"> ></button>
+        </div> 
+        <div class="clear-flex" ></div>
+        <ul id="facts">
+
+        </ul>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

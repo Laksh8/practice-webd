@@ -25,6 +25,7 @@
 
 
 #tambola-numbers{
+    padding: 20px;
     /* margin-top: 50px; */
     width:42%;
     /* background-color: black; */
@@ -53,10 +54,11 @@
 
 #already-visited-numbers{
     /* background-color: blue; */
+    padding:20px;
     width: 80%;
     /* background-color: green; */
     margin: auto;
-    margin-left: 90px;
+    margin-left: 80px;
     
 }
 
